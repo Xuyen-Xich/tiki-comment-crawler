@@ -1,0 +1,33 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Logs and runtime files
+logs/
+*.log
+
+# Generated output
+outputs/
+*.parquet
+*.csv
+*.xlsx
+
+# Test and cache
+.pytest_cache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
