@@ -1,7 +1,7 @@
 # Tiki Crawling Framework (Refactored)
 
 This project is a production-ready, modular crawling framework for Tiki.vn.
-It replaces Selenium with Playwright and organizes code into reusable services, crawlers, and pipelines.
+It organizes code into reusable services, crawlers, and pipelines.
 
 Features
 - Playwright-based menu crawler (async)
