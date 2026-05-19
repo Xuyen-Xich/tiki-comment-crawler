@@ -18,7 +18,6 @@ python -m venv .venv
 .venv\Scripts\activate
 python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
-python -m playwright install chromium
 ```
 
 # Run an example
