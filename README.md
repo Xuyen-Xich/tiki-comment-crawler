@@ -12,26 +12,17 @@ Features
 - Export to CSV/XLSX/Parquet
 - Logging with loguru
 
-Quick setup
-1. Create a virtual environment (Python 3.11+)
-
+## Quick start
 python -m venv .venv
 .venv\Scripts\activate
-
-2. Install dependencies
-
 pip install -r requirements.txt
-
-3. Install Playwright browsers
-
 python -m playwright install
 
-4. Run an example
-
-# Full pipeline (menu -> products -> comments)
+# Run an example
+## Full pipeline (menu -> products -> comments)
 python main.py --mode full
 
-# Keyword pipeline
+## Keyword pipeline
 python main.py --mode keyword --keywords "Iphone"
 
 Project structure
