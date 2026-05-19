@@ -17,7 +17,7 @@ Features
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
-python -m playwright install
+python -m playwright install chromium
 ```
 
 # Run an example
