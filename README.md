@@ -13,10 +13,12 @@ Features
 - Logging with loguru
 
 ## Quick start
+```powershell
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 python -m playwright install
+'''
 
 # Run an example
 ## Full pipeline (menu -> products -> comments)
