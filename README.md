@@ -18,16 +18,20 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 python -m playwright install
-'''
+```
 
 # Run an example
 ## Full pipeline (menu -> products -> comments)
+```powershell
 python main.py --mode full
+```
 
 ## Keyword pipeline
+```powershell
 python main.py --mode keyword --keywords "Iphone"
+```
 
-Project structure
+# Project structure
 ```
 project/
 ├── config/
